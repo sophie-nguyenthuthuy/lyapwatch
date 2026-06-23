@@ -1,5 +1,9 @@
 # lyapwatch
 
+[![CI](https://github.com/sophie-nguyenthuthuy/lyapwatch/actions/workflows/ci.yml/badge.svg)](https://github.com/sophie-nguyenthuthuy/lyapwatch/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.9%E2%80%933.13-blue)](https://github.com/sophie-nguyenthuthuy/lyapwatch)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 **Lyapunov stability monitoring for retraining loops.** Model a retraining
 pipeline as a discrete dynamical system, estimate a Lyapunov function from its
 metric stream, and raise a divergence alarm — with a projected horizon —
